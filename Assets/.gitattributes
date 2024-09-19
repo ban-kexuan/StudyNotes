@@ -1,0 +1,2 @@
+*.gif filter=lfs diff=lfs merge=lfs -text
+GIF/footprint.gif filter=lfs diff=lfs merge=lfs -text
