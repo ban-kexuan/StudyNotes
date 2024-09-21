@@ -5,7 +5,7 @@ ___
 ![这里写图片描述](https://github.com/ban-kexuan/StudyNotes/blob/master/Assets/GIF/stencil.gif)
 ___
 ### [溶解效果](https://github.com/ban-kexuan/StudyNotes/tree/master/Assets/Scenes/FlagFires)
-![这里写图片描述](https://github.com/ban-kexuan/StudyNotes/blob/master/Assets/GIF/fire1.gif)
+![这里写图片描述](https://github.com/ban-kexuan/StudyNotes/blob/master/Assets/GIF/fire.gif)
 ![这里写图片描述](https://github.com/ban-kexuan/StudyNotes/blob/master/Assets/GIF/fire2.gif)
 
 ### 脚印/沙漠地形(显示较慢)
@@ -17,3 +17,9 @@ ___
 
 ### 随风摇摆的草
 ![这里写图片描述](https://github.com/ban-kexuan/StudyNotes/blob/master/Assets/GIF/grass.gif)
+
+### 卡通渲染
+![这里写图片描述](https://github.com/ban-kexuan/StudyNotes/blob/master/Assets/GIF/npr.gif)
+
+### 扫光
+![这里写图片描述](https://github.com/ban-kexuan/StudyNotes/blob/master/Assets/GIF/gaung.gif)
