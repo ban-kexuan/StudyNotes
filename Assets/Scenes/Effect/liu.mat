@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: liu
+  m_Shader: {fileID: 4800000, guid: 315b58134b52a3a42bed8ce229df4d54, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _FlowTex:
+        m_Texture: {fileID: 2800000, guid: feb668475b3540d4ab4bc73d929622ca, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 56eb2a85a2ac9a94490e02b5167ab8ba, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaScale: 0.318
+    - _FlowIntensity: 12.02
+    - _rimintensity: 2.21
+    - _rimmax: 1.36
+    - _rimmin: 0.07
+    m_Colors:
+    - _FloweFilling: {r: 1, g: 2, b: 0, a: 0}
+    - _Speed: {r: 1, g: 1.16, b: 0, a: 0}
+    - _innerColor: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 0}
+    - _rimColor: {r: 0, g: 0.37328386, b: 1, a: 0}
+  m_BuildTextureStacks: []

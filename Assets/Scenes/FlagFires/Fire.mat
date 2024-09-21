@@ -33,10 +33,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _ChangeAmount: -1
+    - _ChangeAmount: -0.34
     - _cutoff: 0.242
     - _edgeenitisy: 3
     - _edgewidth: 0.1
+    - _speed: 0.3
     m_Colors:
     - _edgecolor: {r: 1, g: 0.60130405, b: 0.2688679, a: 1}
   m_BuildTextureStacks: []

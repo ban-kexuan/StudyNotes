@@ -11,6 +11,8 @@ Shader "Banshader/Effets/Flag1"
         _edgecolor("edgecolor",Color) = (1.0,1.0,1.0,1.0)
         _edgeenitisy("edge enitisy",float) = 2.0
         _smoothness ("smoothness",Range(0,0.5)) = 0.1
+        _speed ("playerspeed",float) = 3.0
+        _spread ("spread",Range(0,1)) = 0.2
     }
     SubShader
     {
@@ -52,6 +54,8 @@ Shader "Banshader/Effets/Flag1"
             fixed4 _edgecolor;
             float _edgeenitisy;
             float _smoothness;
+            float _speed;
+            float _spread;//可以用来调整灰度图的柔和度
             v2f vert (appdata v)
             {
                 v2f o;
@@ -65,16 +69,20 @@ Shader "Banshader/Effets/Flag1"
             {
                 // sample the texture
                 fixed4 col = tex2D(_MainTex, i.uv);
-                fixed3 gradcol = tex2D(_Grdient,i.uv).rgb;
-                float b = gradcol.r - _ChangeAmount;
-                float al = col.a * b;//是不是应该先
-                //al = step(0.5,al);
-                float al2 = smoothstep(_smoothness, 0.5, al);
-                clip (al2 - _cutoff);//但是现在想让它全部显现，因此可以引入changeamount
+                fixed3 gradcol = tex2D(_Grdient,i.uv).rgb;//采样一个灰度图
+                //可以用自动循环播放代替changeamount
+                float x = frac(_Time.y * _speed);
+                x = x*2-1;
+                float b = gradcol.r - x;
+                b = b/_spread;
+                float c = smoothstep(_smoothness,0.5,b);
+                float al = col.a * c;
+                //float al2 = smoothstep(_smoothness, 0.5, al);
+                clip (al - _cutoff);//但是现在想让它全部显现，因此可以引入changeamount
                 //计算当前的灰度值与0.5的距离，当前的灰度值是b  目前要做的是燃烧部分会有一条线，发光，现在的目的是求出这条线
-                float xian = distance(al,_smoothness);
+                float xian = distance(b,_smoothness); //溶解边缘的衰减范围
                 xian = max(0,1-xian/_edgewidth);
-                fixed3 final = lerp(col.rgb,_edgecolor*_edgeenitisy,xian);
+                fixed3 final = lerp(col.rgb,col.rgb*_edgecolor*_edgeenitisy,xian);
                 return fixed4(final,1);
             }
             ENDCG
