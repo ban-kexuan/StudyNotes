@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Rain
+  m_Shader: {fileID: 4800000, guid: 8bf658ae3da263c4dae968329025f2de, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AO:
+        m_Texture: {fileID: 2800000, guid: 95a8b0f5faa991947912bda40743b9a3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Basecolor:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Height:
+        m_Texture: {fileID: 2800000, guid: fc004de035f7e4349a33d9986a554528, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mainmap:
+        m_Texture: {fileID: 2800000, guid: 1f95ee17b1c61234684603473d75fd96, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 2, y: 2}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 00bd4ddbb5e13d342ae97b4fa7218b57, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RainAnim:
+        m_Texture: {fileID: 2800000, guid: b472cca29933e97458d2a700b3d082b8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Roughness:
+        m_Texture: {fileID: 2800000, guid: 9e698a3ec28c0644082cb9c9bc4702e6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture0:
+        m_Texture: {fileID: 2800000, guid: fc004de035f7e4349a33d9986a554528, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample2:
+        m_Texture: {fileID: 2800000, guid: b472cca29933e97458d2a700b3d082b8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaterNormal:
+        m_Texture: {fileID: 2800000, guid: 73edb711cb539614dbe6b3a722ecc5eb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _normal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaCutoff: 0.5
+    - _BlendContract: 0.068
+    - _Glerp: 0
+    - _NormalIntensity: 1
+    - _POMPlane: 0
+    - _POMScale: -0.384
+    - _RainIntensity: 0.149
+    - _RainSpeed: 25
+    - _RainTilling: 1
+    - _WaterRoughness: 0.0817
+    - _WaterTilling: 0.47
+    - __dirty: 0
+    - _roughnessmax: 0.486
+    - _roughnessmin: 0.154
+    - _waterDepth: 0.194
+    m_Colors:
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _WaterColor: {r: 0.26415053, g: 0.26415053, b: 0.26415053, a: 0}
+    - _WaveSpeed: {r: 2, g: 2, b: 0, a: 0}
+  m_BuildTextureStacks: []
