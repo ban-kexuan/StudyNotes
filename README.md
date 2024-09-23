@@ -6,7 +6,6 @@ ___
 ___
 ### [溶解效果](https://github.com/ban-kexuan/StudyNotes/tree/master/Assets/Scenes/FlagFires)
 ![这里写图片描述](https://github.com/ban-kexuan/StudyNotes/blob/master/Assets/GIF/fire.gif)
-![这里写图片描述](https://github.com/ban-kexuan/StudyNotes/blob/master/Assets/GIF/fire2.gif)
 
 ### 脚印/沙漠地形(显示较慢)
 ![这里写图片描述](https://github.com/ban-kexuan/StudyNotes/blob/master/Assets/GIF/footprint2.gif)
@@ -23,3 +22,6 @@ ___
 
 ### 扫光
 ![这里写图片描述](https://github.com/ban-kexuan/StudyNotes/blob/master/Assets/GIF/gaung.gif)
+
+### 下雨的街道
+![这里写图片描述](https://github.com/ban-kexuan/StudyNotes/blob/master/Assets/GIF/Rain.gif)
