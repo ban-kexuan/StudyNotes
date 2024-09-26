@@ -25,3 +25,6 @@ ___
 
 ### 下雨的街道
 ![这里写图片描述](https://github.com/ban-kexuan/StudyNotes/blob/master/Assets/GIF/Rain.gif)
+
+### 玻璃杯
+![这里写图片描述](https://github.com/ban-kexuan/StudyNotes/blob/master/Assets/GIF/Glass.gif)
