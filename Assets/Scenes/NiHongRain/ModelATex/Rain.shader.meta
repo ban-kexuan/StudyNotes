@@ -3,9 +3,9 @@ guid: 8bf658ae3da263c4dae968329025f2de
 ShaderImporter:
   externalObjects: {}
   defaultTextures:
-  - _Mainmap: {fileID: 2800000, guid: 1f95ee17b1c61234684603473d75fd96, type: 3}
-  - _Height: {fileID: 2800000, guid: fc004de035f7e4349a33d9986a554528, type: 3}
   - _NormalMap: {fileID: 2800000, guid: 00bd4ddbb5e13d342ae97b4fa7218b57, type: 3}
+  - _Height: {fileID: 2800000, guid: fc004de035f7e4349a33d9986a554528, type: 3}
+  - _Mainmap: {fileID: 2800000, guid: 1f95ee17b1c61234684603473d75fd96, type: 3}
   - _AO: {fileID: 2800000, guid: 95a8b0f5faa991947912bda40743b9a3, type: 3}
   nonModifiableTextures: []
   userData: 
