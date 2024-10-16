@@ -1,7 +1,7 @@
 # Notes
 记录之前/之后的shader效果、模型素材及技术记录。
 ___
-### [模板测试(不受遮挡，正确显示)](https://github.com/ban-kexuan/StudyNotes/tree/master/Assets/Scenes/Stenciltest)
+### [魔镜模板测试](https://github.com/ban-kexuan/StudyNotes/tree/master/Assets/Scenes/Stenciltest)
 ![这里写图片描述](https://github.com/ban-kexuan/StudyNotes/blob/master/Assets/GIF/mirrornew.gif)
 ___
 ### [溶解效果](https://github.com/ban-kexuan/StudyNotes/tree/master/Assets/Scenes/FlagFires)
