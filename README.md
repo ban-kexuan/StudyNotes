@@ -29,7 +29,7 @@ ___
 ### 玻璃杯
 ![这里写图片描述](https://github.com/ban-kexuan/StudyNotes/blob/master/Assets/GIF/Glass.gif)
 
-### 次表面散射
+### [次表面散射](https://github.com/ban-kexuan/StudyNotes/blob/master/Assets/Scenes/SSS(OnlyCode-Buildin)/README.md)
 #### 斯坦福龙
 ![这里写图片描述](https://github.com/ban-kexuan/StudyNotes/blob/master/Assets/GIF/dagon3.gif)
 #### 蜡烛
