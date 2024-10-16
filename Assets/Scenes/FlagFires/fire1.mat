@@ -34,7 +34,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _ChangeAmount: 0.09
-    - _cutoff: 0.15
+    - _cutoff: 0.069
     - _edgeenitisy: 3.24
     - _edgewidth: 1.12
     - _smoothness: 0.296

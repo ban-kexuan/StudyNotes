@@ -54,6 +54,7 @@ Shader "Banshader/BasicFramework/Stencilt_Scene"
             fixed4 frag (v2f i) : SV_Target
             {
                 fixed4 texColor = tex2D(_MainTex, i.uv);
+                clip(texColor.a-0.01);
                 return texColor;
             }
             ENDCG
