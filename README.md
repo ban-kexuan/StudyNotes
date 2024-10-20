@@ -7,6 +7,9 @@ ___
 ### [溶解效果](https://github.com/ban-kexuan/StudyNotes/tree/master/Assets/Scenes/FlagFires)
 ![这里写图片描述](https://github.com/ban-kexuan/StudyNotes/blob/master/Assets/GIF/fire.gif)
 
+### 进阶溶解效果
+![这里写图片描述](https://github.com/ban-kexuan/StudyNotes/blob/master/Assets/GIF/Flower.gif)
+
 ### 脚印/沙漠地形(显示较慢)
 ![这里写图片描述](https://github.com/ban-kexuan/StudyNotes/blob/master/Assets/GIF/footprint2.gif)
 ![这里写图片描述](https://github.com/ban-kexuan/StudyNotes/blob/master/Assets/GIF/footprint3.gif)
