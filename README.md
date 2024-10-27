@@ -23,6 +23,9 @@ ___
 ### 卡通渲染
 ![这里写图片描述](https://github.com/ban-kexuan/StudyNotes/blob/master/Assets/GIF/npr.gif)
 
+### 移动端角色渲染
+![这里写图片描述](https://github.com/ban-kexuan/StudyNotes/blob/master/Assets/GIF/character.gif)
+
 ### 扫光
 ![这里写图片描述](https://github.com/ban-kexuan/StudyNotes/blob/master/Assets/GIF/gaung.gif)
 
