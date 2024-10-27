@@ -7,7 +7,7 @@
 
 ## 服装模型：
 整个人物的模型贴图都在一张里，由于贴图有金属的部分，也有非金属的部分，因此，需要通过mental贴图来区分金属与非金属。对于金属来说，是没有漫反射的，只有镜面反射，并且，镜面反射的颜色是金属的颜色本身。储存金属度信息的通道是这样的，黑色是皮肤，值为1的部分是金属，其余是介于金属与皮肤之间的一种材质。
-![这里写图片描述](https://github.com/ban-kexuan/StudyNotes/tree/master/Assets/NotePic/Character/mental.png)
+![mental](https://github.com/ban-kexuan/StudyNotes/tree/master/Assets/NotePic/Character/mental.png)
 ```
 half4 comp = tex2D(_CompMask, i.uv);
 fixed metal = comp.g; //根据金属度决定  
