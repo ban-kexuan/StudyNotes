@@ -40,16 +40,16 @@ out float frontDist, out float backDist, out float thickness)
 
 因此，采用顶点position来做，向量从中心指向四周，看起来像个球体（也可以在DCC中修改法线）。显然，下面的效果更符合预期，再根据向量的长度做衰减。
 
-![这里写图片描述](https://github.com/ban-kexuan/StudyNotes/blob/master/Assets/NotePic/SSS-tree.png)
+![这里写图片描述](https://github.com/ban-kexuan/StudyNotes/blob/master/Assets/NotePic/SSS/SSS-tree.png)
 
 蜡烛的SSS和玉石的类似，在这里记录一下蜡烛火苗的做法：
 采用Substance designer做出一个火苗效果，整个流程较简单，主要运用的节点是directional warp，方向变形，根据内焰外焰做出三层效果混合。
 
-![这里写图片描述](https://github.com/ban-kexuan/StudyNotes/blob/master/Assets/NotePic/SSS-firesd.png)
-![这里写图片描述](https://github.com/ban-kexuan/StudyNotes/blob/master/Assets/NotePic/SSS-blend.png)
+![这里写图片描述](https://github.com/ban-kexuan/StudyNotes/blob/master/Assets/NotePic/SSS/SSS-firesd.png)
+![这里写图片描述](https://github.com/ban-kexuan/StudyNotes/blob/master/Assets/NotePic/SSS/SSS-blend.png)
 
 Shader流程如下：
-![这里写图片描述](https://github.com/ban-kexuan/StudyNotes/blob/master/Assets/NotePic/SSS-fire.png)
+![这里写图片描述](https://github.com/ban-kexuan/StudyNotes/blob/master/Assets/NotePic/SSS/SSS-fire.png)
 
 对水的法线贴图进行采样（使用panner增加时间和速度的采样动画），对其xy值与uv相加得到火焰贴图采样的新uv。 勾选Billboard使火焰面片使用面向相机。
 
