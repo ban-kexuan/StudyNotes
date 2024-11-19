@@ -21,7 +21,7 @@ ___
 ![这里写图片描述](https://github.com/ban-kexuan/StudyNotes/blob/master/Assets/GIF/grass.gif)
 
 ### 卡通渲染
-![这里写图片描述](https://github.com/ban-kexuan/StudyNotes/blob/master/Assets/GIF/npr.gif)
+![这里写图片描述](https://github.com/ban-kexuan/StudyNotes/blob/master/Assets/GIF/BRNY.gif)
 
 ### 移动端角色渲染
 ![这里写图片描述](https://github.com/ban-kexuan/StudyNotes/blob/master/Assets/GIF/character.gif)
@@ -31,6 +31,9 @@ ___
 
 ### 下雨的街道
 ![这里写图片描述](https://github.com/ban-kexuan/StudyNotes/blob/master/Assets/GIF/Rain.gif)
+
+### 摇晃的啤酒
+![这里写图片描述](https://github.com/ban-kexuan/StudyNotes/blob/master/Assets/GIF/Beer.gif)
 
 ### 玻璃杯
 ![这里写图片描述](https://github.com/ban-kexuan/StudyNotes/blob/master/Assets/GIF/Glass.gif)
@@ -42,3 +45,9 @@ ___
 ![这里写图片描述](https://github.com/ban-kexuan/StudyNotes/blob/master/Assets/GIF/candle.gif)
 #### 冰面
 ![这里写图片描述](https://github.com/ban-kexuan/StudyNotes/blob/master/Assets/GIF/iceplane.gif)
+
+### Fake Room
+![这里写图片描述](https://github.com/ban-kexuan/StudyNotes/blob/master/Assets/GIF/fakeroom.gif)
+
+### 场景过渡
+![这里写图片描述](https://github.com/ban-kexuan/StudyNotes/blob/master/Assets/GIF/mask2.gif)
