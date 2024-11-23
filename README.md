@@ -46,6 +46,9 @@ ___
 #### 冰面
 ![这里写图片描述](https://github.com/ban-kexuan/StudyNotes/blob/master/Assets/GIF/iceplane.gif)
 
+### 风格化场景
+![这里写图片描述](https://github.com/ban-kexuan/StudyNotes/blob/master/Assets/GIF/landscape.gif)
+
 ### Fake Room
 ![这里写图片描述](https://github.com/ban-kexuan/StudyNotes/blob/master/Assets/GIF/fakeroom.gif)
 
